@@ -72,6 +72,7 @@ def tos():
 ║ Và cam kết rằng chúng tôi sẽ không chịu trách nhiệm về                 ║ 
 ║ thiệt hại bạn đã gây ra cho trang web bị hư hại.                       ║
 ╚════════════════════════════════════════════════════════════════════════╝
+    
     """)
 	while 1:
 		accept = input("Do you agree in our TOS [Y/N]: ")
