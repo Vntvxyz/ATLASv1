@@ -63,14 +63,14 @@ def unavail():
 def tos():
 	print("""\033[1;31;40m
 ╔════════════════════════════════════════════════════════════════════════╗
-║                            \033[2;30;42mĐIỀU KHOẢN DỊCH VỤ\033[1;31;40m                       ║
+║                            \033[2;30;42mĐIỀU KHOẢN DỊCH VỤ\033[1;31;40m                        ║
 ╠════════════════════════════════════════════════════════════════════════╣
-║ TỪ QUẢN TRỊ VIÊN ATLAS:                                                  ║
-║ Chúng tôi không chịu trách nhiệm.                                        ║
-║ trước khi sử dụng công cụ này, bạn phải chấp nhận ĐKDV của tôi.          ║ 
-║ Không khuyến khích tấn công EDU, GOV, ORG, Các trang mạng chính phủ.     ║  
-║ Và cam kết rằng chúng tôi sẽ không chịu trách nhiệm về                   ║ 
-║ thiệt hại bạn đã gây ra cho trang web bị hư hại.                         ║
+║ TỪ QUẢN TRỊ VIÊN ATLAS:                                                ║
+║ Chúng tôi không chịu trách nhiệm.                                      ║
+║ trước khi sử dụng công cụ này, bạn phải chấp nhận ĐKDV của tôi.        ║ 
+║ Không khuyến khích tấn công EDU, GOV, ORG, Các trang mạng chính phủ.   ║  
+║ Và cam kết rằng chúng tôi sẽ không chịu trách nhiệm về                 ║ 
+║ thiệt hại bạn đã gây ra cho trang web bị hư hại.                       ║
 ╚════════════════════════════════════════════════════════════════════════╝
     """)
 	while 1:
@@ -219,7 +219,7 @@ def launchflood():
 			OSclear(); methodbanner()
 		elif methods in ["stop", "STOP"]:
 			run(["pkill screen"], shell=True)
-			print("Ngừng tấn !")
+			print("Ngừng tấn co !")
 		else:
 		   print("Không hợp lệ :)")
     #if (methods == "ATLAS-UAM") or (methods == "atlas-uam"):
