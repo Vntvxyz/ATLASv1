@@ -74,14 +74,14 @@ def tos():
 ╚════════════════════════════════════════════════════════════════════════╝
     """)
 	while 1:
-		accept = input("Do you agree in our TOS [Y/N]: ")
+		accept = input("Are you ready ? [Y/N]: ")
 		if accept in ["y", "Y", "yes", "YES"]:
 			sleep(2)
 			print("[X] tiến hành...")
 			menu()
 		elif accept in ["n", "N", "no", "NO"]:
 			sleep(2)
-			exit("Tạm biệt bái ")
+			exit("Tạm biệt bái bai ")
 		elif accept in "":
 			pass
 		else:
@@ -96,7 +96,7 @@ def banner():
         ╠═╣ ║ ║  ╠═╣╚═╗
         ╩ ╩ ╩ ╩═╝╩ ╩╚═╝ v1\033[1;31;40m
      -- \033[1;32;40mNgThanhVinh \033[1;31;40m & \033[1;32;40mAnonymous -- 
-      Type dev to see who develop
+      Type dev to see who developer
     """)
 
 def repeater():
