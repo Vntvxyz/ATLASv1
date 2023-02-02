@@ -127,7 +127,7 @@ def menu():
 ╚════════════════════════════════════════════════════════════╝
     """)
 	while 1:
-		choose1 = input("atlas-api@free@#~> ")
+		choose1 = input("Root@NTV ")
 		if choose1 in ["1", "user", "userinfo", "info"]:
 			userinfo()
 		elif choose1 in ["2", "methods", "METHODS"]:
